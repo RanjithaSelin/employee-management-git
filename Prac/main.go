@@ -16,7 +16,7 @@ func main() {
 		{ID: 3, Name: "Sam", Salary: 55000},
 	}
 
-	fmt.Println("Employees:")
+	fmt.Println("Employee Report:")
 
 	for _, employee := range employees {
 		fmt.Println(employee)
