@@ -9,11 +9,16 @@ type Employee struct {
 }
 
 func main() {
-	employee := Employee{
-		ID:     1,
-		Name:   "Ray",
-		Salary: 50000,
+
+	employees := []Employee{
+		{ID: 1, Name: "Ray", Salary: 50000},
+		{ID: 2, Name: "John", Salary: 60000},
+		{ID: 3, Name: "Sam", Salary: 55000},
 	}
 
-	fmt.Println("Employee:", employee)
+	fmt.Println("Employees:")
+
+	for _, employee := range employees {
+		fmt.Println(employee)
+	}
 }
