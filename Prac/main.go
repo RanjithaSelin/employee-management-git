@@ -22,5 +22,5 @@ func main() {
 		fmt.Println(employee)
 
 	}
-	fmt.Println("Employee feature branch")
+	fmt.Println("Employee Management Application")
 }
