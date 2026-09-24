@@ -16,7 +16,7 @@ func main() {
 		{ID: 3, Name: "Sam", Salary: 55000},
 	}
 
-    fmt.Println("Monthly Employee Report:")
+	fmt.Println("Monthly Employee Report:")
 
 	for _, employee := range employees {
 		fmt.Println(employee)
@@ -24,3 +24,6 @@ func main() {
 	}
 	fmt.Println("Employee Management Application")
 }
+
+// my_personal_git_account_link = https://github.com/RanjithaSelin/employee-management-git/blob/main/Prac
+
